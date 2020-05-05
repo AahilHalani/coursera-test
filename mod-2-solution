@@ -1,1 +1,53 @@
+<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Our Menu</title>
+			<link rel="stylesheet" type="text/css" href="menu.css">
+	</head>
+	
+	<body>
 
+		<h1 id="heading">Our Menu</h1>
+		
+		<div id="main">
+			<section id="chick" class="section">
+				<div>
+					<p id="Chicken" class="title">Chicken</p>
+				</div>
+
+				<div>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+			</section>
+
+			<section id="bee" class="section">
+				<div>
+					<p id="Beef" class="title">Beef</p>
+				</div>
+
+				<div>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+			</section>
+
+			<section id="sush" class="section">
+				<div>
+					<p id="Sushi" class="title">Sushi</p>
+				</div>
+				
+				<div>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

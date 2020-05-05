@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: verdana;
+}
+
+#heading {
+	text-align: center;
+	margin: 50px;
+}
+
+div#main {
+	text-align: center;
+}
+
+section.section {
+	background-color: gray;
+	width: 31%;
+	float: left;
+	margin: 10px;
+	border: solid 2px black;
+	position: relative;
+}
+
+p {
+	padding: 10px;
+}
+
+p.title {
+	position: absolute;
+	right: 0px;
+	width: 40%;
+	border: solid 1px black;
+	margin: 0px;
+}
+
+#Chicken {
+	background: pink;
+	text-align: center;
+	font-weight: bold;
+}
+
+#Beef {
+	background: #ff282A;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+#Sushi {
+	background: #DEB887;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content {
+	margin-top: 35px;
+	text-align: left;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  	#chick {
+  		float: left;
+  		margin-left: 10%;
+  		width: 38%;
+  	} 
+  	
+  	#bee {
+  		float: left;
+  		margin-right: 10%;
+  		width: 38.5%;
+	}
+	
+	#sush {
+		clear: left;
+		width: 80%;
+		margin-left: 10%;
+  		margin-right: 10%;
+	}
+
+}
+
+@media (max-width: 767px) {
+   	#chick, #bee, #sush {
+   		margin-right: 10%;
+		margin-left: 10%;
+		width: 80%;
+	}
+}
+
